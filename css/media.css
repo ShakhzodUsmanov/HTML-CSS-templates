@@ -52,7 +52,6 @@
   .possibilities-cards {
     grid-template-columns: 1fr;
   }
-
   .contact {
     flex-direction: column;
   }
