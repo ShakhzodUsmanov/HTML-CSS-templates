@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("../img/Bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.btn-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.btn {
+  border: 1px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  padding: 12px 31px;
+}
+
+.burger-menu {
+  display: none;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  padding: 11px;
+}
+
+.burger-menu img {
+  width: 16px;
+  filter: invert();
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .menu {
+  transform: translate(0);
+}
+
+.promo {
+  padding: 140px 0 190px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.promo-title {
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.promo-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #fff;
+  width: 40%;
+  text-align: center;
+}
+
+.promo-btn {
+  border-radius: 6px;
+  background: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ed4c5c;
+  padding: 17px 30px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  color: #000;
+}
+
+.possibilities {
+  margin-top: 150px;
+}
+
+.possibilities-cards {
+  margin-top: 65px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.possibilities .card-img img {
+  width: 100%;
+}
+
+.possibilities .card-text {
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 8px;
+  padding: 25px 36px;
+  position: relative;
+  top: -60px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.possibilities .card-title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #101010;
+}
+
+.possibilities .card-subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #101010;
+  margin-top: 20px;
+}
+
+.possibilities .card-link {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ed4c5c;
+}
+
+.technology {
+  margin-top: 60px;
+}
+
+.technology-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.technology-cards .card {
+  text-align: center;
+  padding: 30px;
+}
+
+.focus {
+  margin-top: 50px;
+  padding: 95px 0;
+  background-color: #ed4c5c;
+}
+
+.focus .container {
+  display: flex;
+  gap: 125px;
+  justify-content: space-between;
+}
+
+.focus-text {
+  width: 45%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+.focus-img {
+  width: 50%;
+}
+.focus-img img {
+  width: 100%;
+}
+
+.focus-title {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.focus-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  color: #fff;
+}
+.focus-icons {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.contact {
+  padding: 160px 0 170px;
+  display: flex;
+  gap: 115px;
+  justify-content: space-between;
+}
+
+.contact-text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text .title {
+  text-align: left;
+}
+
+.contact-p {
+  margin-top: 45px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000;
+}
+
+.contact-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: start;
+}
+
+.contact-input {
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 20px 30px;
+}
+
+.contact-btn {
+  border: 1.5px solid #ed4c5c;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #ed4c5c;
+  padding: 17px 40px;
+}
