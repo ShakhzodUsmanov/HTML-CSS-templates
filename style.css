@@ -5,6 +5,10 @@
   font-family: "Inter";
 }
 
+.libre {
+  font-family: "Libre Baskerville", serif;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -78,6 +82,16 @@
   justify-content: space-between;
 }
 
+.recent .recent-btn {
+  margin-top: 60px;
+  background: #1f1f1f;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  padding: 10px 32px;
+}
+
 .recent .recent-main .col {
   display: flex;
   flex-direction: column;
@@ -89,7 +103,7 @@
   width: 100%;
 }
 
-.recent .card-line{
+.recent .card-line {
   margin-top: 20px;
 }
 
@@ -108,4 +122,65 @@
   line-height: 171%;
   letter-spacing: 0.03em;
   color: #6d6b67;
+  font-family: "Libre Baskerville", serif;
 }
+
+.growing {
+  margin-top: 100px;
+  padding: 80px 0;
+  background: #f7f6f3;
+}
+
+.growing .growing-title {
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 134%;
+  letter-spacing: 0.01em;
+  color: #1f1f1f;
+}
+
+.growing .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.growing .growing-left {
+  width: 45%;
+}
+.growing .growing-right {
+  width: 50%;
+}
+.growing .growing-p {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 159%;
+  letter-spacing: 0.01em;
+  color: #1f1f1f;
+}
+
+.growing .growing-grid {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.growing .card-title{
+  font-weight: 400;
+font-size: 72px;
+line-height: 100%;
+letter-spacing: 0em;
+color: #1f1f1f;
+}
+.growing .card-subtitle{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  letter-spacing: 0.01em;
+  color: #1f1f1f;
+}
+
+
+
