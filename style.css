@@ -58,3 +58,54 @@
   position: relative;
   top: -20px;
 }
+
+.recent {
+  margin-top: 200px;
+}
+
+.recent .recent-title {
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 125%;
+  letter-spacing: 0em;
+  color: #1f1f1f;
+}
+
+.recent .recent-main {
+  margin-top: 45px;
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+}
+
+.recent .recent-main .col {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 65px;
+}
+
+.recent .card img {
+  width: 100%;
+}
+
+.recent .card-line{
+  margin-top: 20px;
+}
+
+.recent .card-title {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 146%;
+  letter-spacing: 0.01em;
+  color: #464542;
+}
+.recent .card-subtitle {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #6d6b67;
+}
