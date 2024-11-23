@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar {
+  padding: 25px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar .menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  margin-top: 100px;
+}
+
+.header .main-title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 125%;
+  letter-spacing: 0em;
+  color: #1f1f1f;
+}
+
+.header .header-grid {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.header .header-circle {
+  width: 32px;
+  height: 32px;
+  background: #c4c4c4;
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+}
