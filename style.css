@@ -14,6 +14,18 @@
   margin: 0 auto;
 }
 
+.title {
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 134%;
+  letter-spacing: 0.01em;
+  color: #1f1f1f;
+}
+
+.line {
+  border: 0.5px solid #6d6b67;
+}
+
 .navbar {
   padding: 25px 0;
 }
@@ -82,7 +94,7 @@
   justify-content: space-between;
 }
 
-.recent .recent-btn {
+.btn {
   margin-top: 60px;
   background: #1f1f1f;
   font-weight: 400;
@@ -131,14 +143,6 @@
   background: #f7f6f3;
 }
 
-.growing .growing-title {
-  font-weight: 400;
-  font-size: 37px;
-  line-height: 134%;
-  letter-spacing: 0.01em;
-  color: #1f1f1f;
-}
-
 .growing .container {
   display: flex;
   justify-content: space-between;
@@ -167,14 +171,14 @@
   gap: 40px;
 }
 
-.growing .card-title{
+.growing .card-title {
   font-weight: 400;
-font-size: 72px;
-line-height: 100%;
-letter-spacing: 0em;
-color: #1f1f1f;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: 0em;
+  color: #1f1f1f;
 }
-.growing .card-subtitle{
+.growing .card-subtitle {
   font-weight: 400;
   font-size: 16px;
   line-height: 169%;
@@ -182,5 +186,55 @@ color: #1f1f1f;
   color: #1f1f1f;
 }
 
+.clients {
+  margin-top: 100px;
+  background: #f7f6f3;
+  padding: 80px 0;
+}
 
+.clients .title {
+  text-align: center;
+  margin-bottom: 36px;
+}
 
+.clients .clients-grid {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 100px;
+  row-gap: 60px;
+}
+
+.clients .grid-item img {
+  width: 100%;
+}
+
+.clients .grid-item {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ready {
+  background: #e0f391;
+  padding: 40px 0;
+}
+
+.ready .ready-wrapper {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ready .title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+}
+
+.ready .btn {
+  margin: 0;
+}
