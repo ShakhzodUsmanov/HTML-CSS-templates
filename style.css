@@ -238,3 +238,64 @@
 .ready .btn {
   margin: 0;
 }
+
+.footer {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 80px 0 55px;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top .footer-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 168%;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+.footer .footer-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  gap: 70px;
+}
+
+.footer-top .list{
+  list-style: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 172%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer .footer-bootom{
+  margin-top: 90px;
+  display: flex;  
+  justify-content: space-between;
+}
+
+.footer .footer-bootom .copy{
+  font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: 0.01em;
+color: #fff;
+}
+
+.footer .footer-bootom .copy span{
+  color: #a8a6a0;
+}
