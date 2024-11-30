@@ -41,7 +41,20 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  transition: 0.2s;
 }
+#check{
+  display: none;
+}
+
+#check:checked ~ .menu{
+  transform: translate(0);
+}
+
+.burger-menu{
+  display: none;
+}
+
 .navbar .menu a {
   text-decoration: none;
   color: inherit;
@@ -245,10 +258,6 @@
   padding: 80px 0 55px;
 }
 
-.footer-top{
-  display: flex;
-  justify-content: space-between;
-}
 
 .footer-top .footer-title {
   font-weight: 400;
@@ -262,6 +271,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .footer-top {
@@ -290,10 +300,10 @@
 
 .footer .footer-bootom .copy{
   font-weight: 400;
-font-size: 14px;
-line-height: 140%;
-letter-spacing: 0.01em;
-color: #fff;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #fff;
 }
 
 .footer .footer-bootom .copy span{
