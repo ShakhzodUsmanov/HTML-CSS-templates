@@ -58,6 +58,11 @@
     color: white;
     transform: translateX(-100%);
   }
+
+  .navbar .menu li a {
+    color: white;
+  }
+  
   .burger-menu{
     display: block;
   }
