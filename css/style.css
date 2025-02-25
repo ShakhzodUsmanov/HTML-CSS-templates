@@ -43,15 +43,15 @@
   gap: 30px;
   transition: 0.2s;
 }
-#check{
+#check {
   display: none;
 }
 
-#check:checked ~ .menu{
+#check:checked ~ .menu {
   transform: translate(0);
 }
 
-.burger-menu{
+.burger-menu {
   display: none;
   color: black;
   border: 1px solid #1f1f1f;
@@ -264,7 +264,6 @@
   padding: 80px 0 55px;
 }
 
-
 .footer-top .footer-title {
   font-weight: 400;
   font-size: 20px;
@@ -273,7 +272,7 @@
   color: #fff;
 }
 
-.footer .footer-box{
+.footer .footer-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -286,7 +285,7 @@
   gap: 70px;
 }
 
-.footer-top .list{
+.footer-top .list {
   list-style: none;
   font-weight: 400;
   font-size: 13px;
@@ -298,13 +297,13 @@
   gap: 10px;
 }
 
-.footer .footer-bootom{
+.footer .footer-bootom {
   margin-top: 90px;
-  display: flex;  
+  display: flex;
   justify-content: space-between;
 }
 
-.footer .footer-bootom .copy{
+.footer .footer-bootom .copy {
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
@@ -312,6 +311,6 @@
   color: #fff;
 }
 
-.footer .footer-bootom .copy span{
+.footer .footer-bootom .copy span {
   color: #a8a6a0;
 }
