@@ -1,0 +1,70 @@
+@media (max-width: 1060px) {
+  .menu {
+    transition: 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.858);
+    height: 100%;
+    flex-direction: column;
+    padding: 30px;
+    transform: translate(-100%);
+  }
+  .burger-menu {
+    display: block;
+  }
+
+  .promo-subtitle {
+    width: 60%;
+  }
+
+  .possibilities-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .technology-cards {
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .focus .container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .focus-text {
+    width: 100%;
+  }
+  .focus-img {
+    width: 100%;
+  }
+
+  .contact {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .promo-title {
+    font-size: 52px;
+  }
+  .promo-subtitle {
+    width: 100%;
+  }
+  .possibilities-cards {
+    grid-template-columns: 1fr;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact-text {
+    width: 100%;
+  }
+  .contact-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .technology-cards {
+    grid-template-columns: 1fr;
+  }
+}
